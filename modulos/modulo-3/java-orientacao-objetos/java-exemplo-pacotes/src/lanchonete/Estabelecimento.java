@@ -31,8 +31,6 @@ public class Estabelecimento {
 		atendente.pegarLancheCozinha();
 		atendente.receberPagamento();
 		atendente.servindoMesa();
-		//ação que somente o seu pacote cozinha precisa conhecer (default)
-		atendente.trocarGas();
 		
 		Cliente cliente = new Cliente();
 		cliente.escolherLanche();
