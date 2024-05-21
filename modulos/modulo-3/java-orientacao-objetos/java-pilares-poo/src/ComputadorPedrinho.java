@@ -12,6 +12,10 @@ public class ComputadorPedrinho {
         fbmessenger.enviarMensagem();
         fbmessenger.receberMensagem();
 
+        // Abrindo Telegram
+        Telegram tg = new Telegram();
+        tg.enviarMensagem();
+        tg.receberMensagem();
 
 	}
 
