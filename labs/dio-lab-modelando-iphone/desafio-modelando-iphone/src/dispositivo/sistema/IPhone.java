@@ -7,7 +7,7 @@ import dispositivo.aplicativos.Navegador;
 public class IPhone implements ReprodutorMusical, AparelhoTelefonico, Navegador {
 
     private String estadoDispositivo = "Ligado";
-    private int volume = 0;
+    private int volume = 20;
     
     
     // Metodos IPhone
