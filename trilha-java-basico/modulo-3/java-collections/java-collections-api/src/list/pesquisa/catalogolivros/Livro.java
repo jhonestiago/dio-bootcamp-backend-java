@@ -1,4 +1,4 @@
-package list.Pesquisa.CatalogoLivros.Biblioteca;
+package list.pesquisa.catalogolivros;
 
 public class Livro {
 

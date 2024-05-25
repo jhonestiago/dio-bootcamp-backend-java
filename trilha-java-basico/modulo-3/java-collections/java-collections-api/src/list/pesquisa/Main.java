@@ -1,6 +1,6 @@
-package list.Pesquisa.CatalogoLivros;
+package list.pesquisa;
 
-import list.Pesquisa.CatalogoLivros.Biblioteca.CatalogoLivros;
+import list.pesquisa.catalogolivros.CatalogoLivros;
 
 public class Main {
  

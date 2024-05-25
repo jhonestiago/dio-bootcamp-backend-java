@@ -1,6 +1,6 @@
-package list.OperacoesBasicas.ListaTarefas;
+package list.operacoesbasicas;
 
-import list.OperacoesBasicas.ListaTarefas.Tarefas.ListaTarefas;
+import list.operacoesbasicas.listatarefas.ListaTarefas;
 
 public class Main {
 
