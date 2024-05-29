@@ -20,6 +20,6 @@ public class Convidado {
 
     @Override
     public String toString() {
-        return "nome: " + this.nome + ", codigoConvite: " + this.codigoConvite + "\n";
+        return "nome: " + this.nome + ", codigoConvite: " + this.codigoConvite;
     }
 }
