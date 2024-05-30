@@ -1,8 +1,9 @@
 package set.ordenacao.cadastroprodutos;
 
+import java.lang.Comparable;
 import java.util.Objects;
 
-public class Produto {
+public class Produto implements Comparable<Produto> {
 
     // Atributos
     private long codigo;
@@ -16,6 +17,11 @@ public class Produto {
         this.nome = nome;
         this.preco = preco;
         this.quantidade = quantidade;
+    }
+
+    @Override
+    public int compareTo(Produto produto) {
+        return this.nome.compareToIgnoreCase(produto.getNome());
     }
 
     // Getter
