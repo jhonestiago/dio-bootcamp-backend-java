@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "map.ordenacao.Main",
+            "projectName": "java-collections-api_eae27b0d"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "set.pesquisa.Main",
             "projectName": "java-collections-api_eae27b0d"
         },
